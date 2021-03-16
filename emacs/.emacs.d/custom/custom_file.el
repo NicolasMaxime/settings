@@ -4,6 +4,7 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(global-company-mode t)
+ '(package-selected-packages (quote (dockerfile-mode)))
  '(xterm-mouse-mode nil))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
@@ -38,3 +39,9 @@
 ;; smart tab
 (require 'smart-tab)
 (global-smart-tab-mode 1)
+
+;; python mode to .da file
+(add-to-list 'auto-mode-alist '("\\.da\\'" . python-mode))
+
+;; c mode to .cl file
+(add-to-list 'auto-mode-alist '("\\.cl\\'" . c-mode))

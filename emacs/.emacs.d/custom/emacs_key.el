@@ -17,6 +17,5 @@
 )
 
 (global-set-key (kbd "C-c x") 'company-c-headers)
-
 (global-set-key [f8] 'copy-to-clipboard)
 (global-set-key [f9] 'paste-from-clipboard)

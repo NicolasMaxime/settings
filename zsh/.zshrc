@@ -85,8 +85,10 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 alias ne="emacs -nw"
+alias da="python3.7 -m da"
 alias nezsh="emacs -nw ~/.zshrc"
-alias cc="gcc -Wall -Wextra -Werror -std=gnu99"
+alias cce="gcc -Wall -Wextra -Werror -std=gnu99"
+alias cc="gcc -std=gnu99"
 alias java8="/usr/lib/jvm/java-8-openjdk-amd64/bin/java"
 alias idea="~/local_bin/idea/bin/idea.sh"
 alias apti="apt-get install"
@@ -96,4 +98,15 @@ alias gche="git checkout"
 alias gm="git commit -m"
 alias gps="git push"
 alias gpu="git pull"
-alias gcr="git clone https://nicola116u@redmine.fst.univ-lorraine.fr/redmine-atelis/toucan/bouillon-nicolas/toucan14.git"
+
+alias idea="~/perso/prog/idea/bin/idea.sh"
+alias webstorm="~/perso/prog/WebStorm/bin/webstorm.sh"
+alias netbeans="/home/attuku/netbeans-12.1/netbeans/bin/netbeans"
+alias ecc="~/eclipse/eclipse"
+alias mars="java -jar ~/perso/binaireJar/Mars4_5.jar"
+alias postman="~/perso/prog/Postman/Postman"
+alias weka="/home/attuku/perso/prog/weka-3-8-4/weka.sh"
+export ANDROID_HOME="/home/attuku/Android/"
+
+# added by travis gem
+[ ! -s /home/attuku/.travis/travis.sh ] || source /home/attuku/.travis/travis.sh
